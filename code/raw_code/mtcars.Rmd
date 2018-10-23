@@ -1,0 +1,19 @@
+---
+title: "mtcars"
+author: "Nathan Hepler"
+date: "10/23/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## mtcars
+
+Let's take a look at the data
+
+```{r cars}
+summary(mtcars)
+```
+
